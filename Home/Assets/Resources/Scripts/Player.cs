@@ -9,7 +9,6 @@ public class Player : PhysicsObject {
     public float jumpTakeOffSpeed = 10;
 
     public float spriteIndex;
-    
 //    private SpriteRenderer spriteRenderer;
 //    private Animator animator;
 
@@ -20,7 +19,11 @@ public class Player : PhysicsObject {
 //        spriteRenderer = GetComponent<SpriteRenderer> (); 
 //        animator = GetComponent<Animator> ();
     }
+    private void Update() {
+        if (Input.GetKeyDown(KeyCode.D)) {
 
+        }
+    }
     protected override void ComputeVelocity()
     {
         Vector2 move = Vector2.zero;
