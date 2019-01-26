@@ -9,20 +9,17 @@ public class Player : PhysicsObject {
     public float jumpTakeOffSpeed = 10;
 
     public float spriteIndex;
+    
 //    private SpriteRenderer spriteRenderer;
 //    private Animator animator;
 
     // Use this for initialization
     void Start () 
     {
+        fitCollider();
         Debug.Log("start called");
 //        spriteRenderer = GetComponent<SpriteRenderer> (); 
 //        animator = GetComponent<Animator> ();
-    }
-    private void Update() {
-        if (Input.GetKeyDown(KeyCode.D)) {
-
-        }
     }
     protected override void ComputeVelocity()
     {
@@ -55,5 +52,17 @@ public class Player : PhysicsObject {
         SpriteRenderer spritePlayer = gameObjectPlayer.GetComponentInChildren<SpriteRenderer>();
         spritePlayer.sprite = houseSprite;
     }
-    
+    private void fitCollider() {
+        // GameObject body = GameObject.FindGameObjectWithTag("body");
+        // GameObject limbs = GameObject.FindGameObjectWithTag("limbs");
+        // BoxCollider2D bodyCol = body.GetComponent<BoxCollider2D>();
+        // BoxCollider2D limbsCol = limbs.GetComponent<BoxCollider2D>();
+        // SpriteRenderer bodyrndr = body.GetComponent<SpriteRenderer>();
+        // SpriteRenderer limbsrndr = limbs.GetComponent<SpriteRenderer>();
+        // Vector2 v = bodyrndr.bounds.size;
+        // bodyCol.size = v;
+        // // BoxCollider2D box = this.GetComponentInChildren<BoxCollider2D>();
+        // // box.size = v;
+        // Debug.Log("set collider");
+    }
 }
