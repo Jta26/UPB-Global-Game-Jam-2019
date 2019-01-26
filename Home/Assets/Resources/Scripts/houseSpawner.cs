@@ -25,7 +25,7 @@ public class houseSpawner : MonoBehaviour
         Debug.Log(houseChance);
 
         //place houses at locations (spaced according to asset size)
-        Instantiate(PREFAB, POSITION);
+//        Instantiate(PREFAB, POSITION);
 
     }
     void Update()
