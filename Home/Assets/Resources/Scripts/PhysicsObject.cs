@@ -8,6 +8,7 @@ public class PhysicsObject : MonoBehaviour {
 
     public float minGroundNormalY = .65f;
     public float gravityModifier = 1f;
+    public bool flying;
 
     protected Vector2 targetVelocity;
     protected bool grounded;
@@ -56,7 +57,7 @@ public class PhysicsObject : MonoBehaviour {
 
         Vector2 moveAlongGround = new Vector2 (groundNormal.y, -groundNormal.x);
 
-        Vector2 move = moveAlongGround * deltaPosition.x;
+        Vector2 move = flying ? deltaPosition : moveAlongGround * deltaPosition.x;
 
         Movement (move, false);
 

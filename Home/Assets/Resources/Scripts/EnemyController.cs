@@ -9,10 +9,12 @@ public class EnemyController : PhysicsObject
     public float maxSpeed = 8;
     public float jumpTakeOffSpeed = 10;
     public bool playerToLeft, jumping;
+    private SpriteRenderer spriteRenderer;
 
     void Awake () 
     {
         playerToLeft = GameObject.FindGameObjectWithTag ("Player").transform.position.x < transform.position.x;
+        spriteRenderer = GetComponent<SpriteRenderer> ();
     }
 
     protected override void ComputeVelocity()
@@ -21,11 +23,12 @@ public class EnemyController : PhysicsObject
 
         if (grounded && jumping) {
             velocity.y = jumpTakeOffSpeed;
-        } else if (Input.GetButtonUp ("Jump")) 
+        }
+
+        bool flipSprite = (spriteRenderer.flipX ? (move.x < 0.01f) : (move.x > 0.01f));
+        if (flipSprite) 
         {
-            if (velocity.y > 0) {
-                velocity.y = velocity.y * 0.5f;
-            }
+            spriteRenderer.flipX = !spriteRenderer.flipX;
         }
 
         targetVelocity = move * maxSpeed;
