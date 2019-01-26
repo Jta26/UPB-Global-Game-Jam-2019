@@ -13,7 +13,7 @@ public class EnemyController : PhysicsObject
 
     void Awake () 
     {
-        playerToLeft = GameObject.FindGameObjectWithTag ("Player").transform.position.x < transform.position.x;
+        playerToLeft = GameObject.FindGameObjectWithTag ("playerHouse").transform.position.x < transform.position.x;
         spriteRenderer = GetComponent<SpriteRenderer> ();
     }
 
