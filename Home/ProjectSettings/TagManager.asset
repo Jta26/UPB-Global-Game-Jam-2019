@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - playerHouse
+  - fillerHouse
   layers:
   - Default
   - TransparentFX

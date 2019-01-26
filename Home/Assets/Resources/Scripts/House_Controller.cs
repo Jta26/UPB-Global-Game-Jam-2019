@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class House_Controller : MonoBehaviour
 {
-    private bool downKeyDown;
-    private bool isCollidedWithCorrectHouse;
+    public bool downKeyDown;
+    public bool isCollidedWithCorrectHouse;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,8 +30,11 @@ public class House_Controller : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D col){
+        Debug.Log("Collision Made");
         if (col.gameObject.tag == "Player") {
-            if (this.gameObject.tag == "playerHouse") {
+            Debug.Log("Player Collision" + this.gameObject.tag.ToString());
+
+            if (this.gameObject.CompareTag("playerHouse")) {
                 isCollidedWithCorrectHouse = true;
             }
         }
@@ -42,5 +45,8 @@ public class House_Controller : MonoBehaviour
                 isCollidedWithCorrectHouse = false;
             }
         }
+    }
+
+    void SetHouseSprite() {
     }
 }
