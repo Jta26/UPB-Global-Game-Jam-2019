@@ -9,7 +9,7 @@ public class Player : PhysicsObject {
     public float jumpTakeOffSpeed = 10;
 
     public float spriteIndex;
-
+    
 //    private SpriteRenderer spriteRenderer;
 //    private Animator animator;
 
@@ -17,7 +17,6 @@ public class Player : PhysicsObject {
     void Start () 
     {
         Debug.Log("start called");
-        SetPlayerSprite();
 //        spriteRenderer = GetComponent<SpriteRenderer> (); 
 //        animator = GetComponent<Animator> ();
     }
@@ -48,15 +47,10 @@ public class Player : PhysicsObject {
 
         targetVelocity = move * maxSpeed;
     }
-    void SetPlayerSprite() {
-        SpriteRenderer spritePlayer = gameObjectPlayer.GetComponent<SpriteRenderer>();
-        object[] houseSprites = Resources.LoadAll("Sprites/houses", typeof (Sprite));
-        for (int i = 0; i < houseSprites.Length; i++) {
-            houseSprites[i] = (Sprite) houseSprites[i];
-        }
-        spritePlayer.sprite = (Sprite) houseSprites[Mathf.RoundToInt(Random.Range(0, houseSprites.Length))];
-        
-        
+    //Loads the sprites, Sets Player to random sprite.
+    public void SetPlayerSprite(Sprite houseSprite) {
+        SpriteRenderer spritePlayer = gameObjectPlayer.GetComponentInChildren<SpriteRenderer>();
+        spritePlayer.sprite = houseSprite;
     }
     
 }
