@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : PhysicsObject {
 
+    public GameObject gameObjectPlayer;
     public float maxSpeed = 8;
     public float jumpTakeOffSpeed = 10;
 
@@ -13,8 +14,10 @@ public class Player : PhysicsObject {
 //    private Animator animator;
 
     // Use this for initialization
-    void Awake () 
+    void Start () 
     {
+        Debug.Log("start called");
+        SetPlayerSprite();
 //        spriteRenderer = GetComponent<SpriteRenderer> (); 
 //        animator = GetComponent<Animator> ();
     }
@@ -46,6 +49,13 @@ public class Player : PhysicsObject {
         targetVelocity = move * maxSpeed;
     }
     void SetPlayerSprite() {
+        SpriteRenderer spritePlayer = gameObjectPlayer.GetComponent<SpriteRenderer>();
+        object[] houseSprites = Resources.LoadAll("Sprites/houses", typeof (Sprite));
+        for (int i = 0; i < houseSprites.Length; i++) {
+            houseSprites[i] = (Sprite) houseSprites[i];
+        }
+        spritePlayer.sprite = (Sprite) houseSprites[Mathf.RoundToInt(Random.Range(0, houseSprites.Length))];
+        
         
     }
     

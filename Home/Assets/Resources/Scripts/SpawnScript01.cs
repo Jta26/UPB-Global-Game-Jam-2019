@@ -15,18 +15,14 @@ public class SpawnScript01 : MonoBehaviour {
             houseLocs.Add(GetRandomMultipleOfFive(houseLocs));
         }
         //Generate the Finish House from 0 in house locations
-
         GameObject finishHouse = GenerateFinishHouse(houseLocs[0]);
-        // //Remove it from the list.
-        // houseLocs.Remove(0);
-        //Get it's position
-        Transform fTrans = finishHouse.GetComponent<Transform>();
+        //Remove it from the list.
+        houseLocs.Remove(0);
         List<GameObject> houses = new List<GameObject>();
         foreach(float num in houseLocs) {
             Debug.Log(num.ToString());
             houses.Add(GenerateHouse(num)); 
         }
-        Vector2 finishHousePos = new Vector2(fTrans.position.x, fTrans.position.y);
     }
     void Update()
     {
