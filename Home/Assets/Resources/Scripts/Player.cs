@@ -7,6 +7,8 @@ public class Player : PhysicsObject {
     public float maxSpeed = 8;
     public float jumpTakeOffSpeed = 10;
 
+    public float spriteIndex;
+
 //    private SpriteRenderer spriteRenderer;
 //    private Animator animator;
 
@@ -42,6 +44,9 @@ public class Player : PhysicsObject {
 //        animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
 
         targetVelocity = move * maxSpeed;
+    }
+    void SetPlayerSprite() {
+        
     }
     
 }
