@@ -1,9 +1,11 @@
-﻿using System.Collections;
+﻿//Credit: Unity Tutorials
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : PhysicsObject {
-
+public class PlayerController : PhysicsObject 
+{
     public float maxSpeed = 8;
     public float jumpTakeOffSpeed = 10;
 
