@@ -21,7 +21,7 @@ public class Button_Controller : MonoBehaviour
         if (btnSceneChange) {
             btnSceneChange.onClick.AddListener(() => {
                         Debug.Log("Scene Change Button Clicked");
-                        SceneChange(sceneName);
+                        Initiate.Fade("Intro", Color.white, 0.5f);
             });
         }
     }
