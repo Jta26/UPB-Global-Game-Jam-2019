@@ -8,12 +8,10 @@ public class EnemyController : PhysicsObject
 {
     public float maxSpeed = 8;
     public float jumpTakeOffSpeed = 10;
-    public bool playerToLeft;
-    public float playerX;
+    public bool playerToLeft, jumping;
 
     void Awake () 
     {
-        playerX = transform.position.x;
         playerToLeft = GameObject.FindGameObjectWithTag ("Player").transform.position.x < transform.position.x;
     }
 
@@ -21,7 +19,7 @@ public class EnemyController : PhysicsObject
     {
         Vector2 move = playerToLeft ? Vector2.left : Vector2.right;
 
-        if (grounded) {
+        if (grounded && jumping) {
             velocity.y = jumpTakeOffSpeed;
         } else if (Input.GetButtonUp ("Jump")) 
         {
