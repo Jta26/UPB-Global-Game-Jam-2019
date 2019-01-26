@@ -6,6 +6,8 @@ TagManager:
   tags:
   - playerHouse
   - fillerHouse
+  - playerBody
+  - playerLimbs
   layers:
   - Default
   - TransparentFX
