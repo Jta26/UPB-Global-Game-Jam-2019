@@ -136,36 +136,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74891126}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 74891126}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -177,6 +152,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &74891128
 Transform:
   m_ObjectHideFlags: 0
@@ -200,7 +177,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 83543307}
-  - component: {fileID: 83543306}
   m_Layer: 0
   m_Name: SpawnLoc25
   m_TagString: Untagged
@@ -208,54 +184,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &83543306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 83543305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 83543305}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
-  houses:
-  - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
-  - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
-  - {fileID: 8897423544863592217, guid: 214d6f109ddf3b1499a111cb198ebbda, type: 3}
-  - {fileID: 2554996813049419275, guid: 9d126bcf5a1567b42a27f79edd7ee0a5, type: 3}
-  - {fileID: 1579561341246395709, guid: 720cdac8780a54841b479407d4411993, type: 3}
-  - {fileID: 4187762170223508909, guid: e8d08dd717278b9479f23178f3953bde, type: 3}
-  - {fileID: 6772749710254181892, guid: 1bc5126002a71034789d03eb643a9b92, type: 3}
-  - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
-  - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
-  - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
 --- !u!4 &83543307
 Transform:
   m_ObjectHideFlags: 0
@@ -415,36 +343,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233922484}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 233922484}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -456,6 +359,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &233922486
 Transform:
   m_ObjectHideFlags: 0
@@ -494,36 +399,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291812886}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 291812886}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -535,6 +415,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &291812888
 Transform:
   m_ObjectHideFlags: 0
@@ -573,36 +455,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382405902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 382405902}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -614,6 +471,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &382405904
 Transform:
   m_ObjectHideFlags: 0
@@ -652,36 +511,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508839322}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 508839322}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -693,6 +527,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &508839324
 Transform:
   m_ObjectHideFlags: 0
@@ -731,36 +567,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528730306}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 528730306}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -772,6 +583,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &528730308
 Transform:
   m_ObjectHideFlags: 0
@@ -795,7 +608,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 634081830}
-  - component: {fileID: 634081829}
   m_Layer: 0
   m_Name: SpawnLoc22
   m_TagString: Untagged
@@ -803,54 +615,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &634081829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634081828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 634081828}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
-  houses:
-  - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
-  - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
-  - {fileID: 8897423544863592217, guid: 214d6f109ddf3b1499a111cb198ebbda, type: 3}
-  - {fileID: 2554996813049419275, guid: 9d126bcf5a1567b42a27f79edd7ee0a5, type: 3}
-  - {fileID: 1579561341246395709, guid: 720cdac8780a54841b479407d4411993, type: 3}
-  - {fileID: 4187762170223508909, guid: e8d08dd717278b9479f23178f3953bde, type: 3}
-  - {fileID: 6772749710254181892, guid: 1bc5126002a71034789d03eb643a9b92, type: 3}
-  - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
-  - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
-  - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
 --- !u!4 &634081830
 Transform:
   m_ObjectHideFlags: 0
@@ -889,36 +653,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635744744}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 635744744}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -930,6 +669,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &635744746
 Transform:
   m_ObjectHideFlags: 0
@@ -968,36 +709,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813582292}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 813582292}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1009,6 +725,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &813582294
 Transform:
   m_ObjectHideFlags: 0
@@ -1047,36 +765,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899199216}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 899199216}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1088,6 +781,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &899199218
 Transform:
   m_ObjectHideFlags: 0
@@ -1126,36 +821,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970515620}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 970515620}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1167,6 +837,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &970515622
 Transform:
   m_ObjectHideFlags: 0
@@ -1190,7 +862,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1120749524}
-  - component: {fileID: 1120749523}
   m_Layer: 0
   m_Name: SpawnLoc24
   m_TagString: Untagged
@@ -1198,54 +869,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1120749523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120749522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 1120749522}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
-  houses:
-  - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
-  - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
-  - {fileID: 8897423544863592217, guid: 214d6f109ddf3b1499a111cb198ebbda, type: 3}
-  - {fileID: 2554996813049419275, guid: 9d126bcf5a1567b42a27f79edd7ee0a5, type: 3}
-  - {fileID: 1579561341246395709, guid: 720cdac8780a54841b479407d4411993, type: 3}
-  - {fileID: 4187762170223508909, guid: e8d08dd717278b9479f23178f3953bde, type: 3}
-  - {fileID: 6772749710254181892, guid: 1bc5126002a71034789d03eb643a9b92, type: 3}
-  - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
-  - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
-  - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
 --- !u!4 &1120749524
 Transform:
   m_ObjectHideFlags: 0
@@ -1284,36 +907,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122320366}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 1122320366}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1325,6 +923,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &1122320368
 Transform:
   m_ObjectHideFlags: 0
@@ -1348,7 +948,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1141512440}
-  - component: {fileID: 1141512439}
   m_Layer: 0
   m_Name: SpawnLoc23
   m_TagString: Untagged
@@ -1356,54 +955,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1141512439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141512438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 1141512438}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
-  houses:
-  - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
-  - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
-  - {fileID: 8897423544863592217, guid: 214d6f109ddf3b1499a111cb198ebbda, type: 3}
-  - {fileID: 2554996813049419275, guid: 9d126bcf5a1567b42a27f79edd7ee0a5, type: 3}
-  - {fileID: 1579561341246395709, guid: 720cdac8780a54841b479407d4411993, type: 3}
-  - {fileID: 4187762170223508909, guid: e8d08dd717278b9479f23178f3953bde, type: 3}
-  - {fileID: 6772749710254181892, guid: 1bc5126002a71034789d03eb643a9b92, type: 3}
-  - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
-  - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
-  - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
 --- !u!4 &1141512440
 Transform:
   m_ObjectHideFlags: 0
@@ -1442,36 +993,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454828053}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 1454828053}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1483,6 +1009,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &1454828055
 Transform:
   m_ObjectHideFlags: 0
@@ -1521,36 +1049,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530599473}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 1530599473}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1562,6 +1065,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &1530599475
 Transform:
   m_ObjectHideFlags: 0
@@ -1600,36 +1105,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601929981}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 1601929981}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1641,6 +1121,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &1601929983
 Transform:
   m_ObjectHideFlags: 0
@@ -1679,36 +1161,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616817356}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 1616817356}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1720,6 +1177,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &1616817358
 Transform:
   m_ObjectHideFlags: 0
@@ -1758,36 +1217,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703058434}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 1703058434}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1799,6 +1233,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &1703058436
 Transform:
   m_ObjectHideFlags: 0
@@ -1908,31 +1344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 232749191}
-  SpawnLocation02: {fileID: 813582292}
-  SpawnLocation03: {fileID: 291812886}
-  SpawnLocation04: {fileID: 382405902}
-  SpawnLocation05: {fileID: 2024577573}
-  SpawnLocation06: {fileID: 528730306}
-  SpawnLocation07: {fileID: 2125505685}
-  SpawnLocation08: {fileID: 1703058434}
-  SpawnLocation09: {fileID: 970515620}
-  SpawnLocation10: {fileID: 1122320366}
-  SpawnLocation11: {fileID: 508839322}
-  SpawnLocation12: {fileID: 1454828053}
-  SpawnLocation13: {fileID: 1601929981}
-  SpawnLocation14: {fileID: 635744744}
-  SpawnLocation15: {fileID: 2099198542}
-  SpawnLocation16: {fileID: 899199216}
-  SpawnLocation17: {fileID: 1616817356}
-  SpawnLocation18: {fileID: 233922484}
-  SpawnLocation19: {fileID: 1530599473}
-  SpawnLocation20: {fileID: 74891126}
-  SpawnLocation21: {fileID: 1970357640}
-  SpawnLocation22: {fileID: 634081828}
-  SpawnLocation23: {fileID: 1141512438}
-  SpawnLocation24: {fileID: 1120749522}
-  SpawnLocation25: {fileID: 83543305}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -1944,6 +1355,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!1 &1970357640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1968,36 +1381,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970357640}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 1970357640}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -2009,6 +1397,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &1970357642
 Transform:
   m_ObjectHideFlags: 0
@@ -2047,36 +1437,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024577573}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 2024577573}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -2088,6 +1453,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &2024577575
 Transform:
   m_ObjectHideFlags: 0
@@ -2126,36 +1493,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099198542}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 2099198542}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -2167,6 +1509,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &2099198544
 Transform:
   m_ObjectHideFlags: 0
@@ -2205,36 +1549,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125505685}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09621e54244dc4d96e5d5c90677e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnLocation01: {fileID: 2125505685}
-  SpawnLocation02: {fileID: 0}
-  SpawnLocation03: {fileID: 0}
-  SpawnLocation04: {fileID: 0}
-  SpawnLocation05: {fileID: 0}
-  SpawnLocation06: {fileID: 0}
-  SpawnLocation07: {fileID: 0}
-  SpawnLocation08: {fileID: 0}
-  SpawnLocation09: {fileID: 0}
-  SpawnLocation10: {fileID: 0}
-  SpawnLocation11: {fileID: 0}
-  SpawnLocation12: {fileID: 0}
-  SpawnLocation13: {fileID: 0}
-  SpawnLocation14: {fileID: 0}
-  SpawnLocation15: {fileID: 0}
-  SpawnLocation16: {fileID: 0}
-  SpawnLocation17: {fileID: 0}
-  SpawnLocation18: {fileID: 0}
-  SpawnLocation19: {fileID: 0}
-  SpawnLocation20: {fileID: 0}
-  SpawnLocation21: {fileID: 0}
-  SpawnLocation22: {fileID: 0}
-  SpawnLocation23: {fileID: 0}
-  SpawnLocation24: {fileID: 0}
-  SpawnLocation25: {fileID: 0}
   houses:
   - {fileID: 7881526058765160929, guid: 9478e319bc350b64b9138f7e4d738bc9, type: 3}
   - {fileID: 1584529727783431806, guid: 3658e53c6b15649489bb7cd81ef5bbb0, type: 3}
@@ -2246,6 +1565,8 @@ MonoBehaviour:
   - {fileID: 7305880376603007668, guid: 7326a8d619033784daa57c10076604bf, type: 3}
   - {fileID: 7007652837374744089, guid: 826fabc51b4744f4fb5c71b07d4e09b3, type: 3}
   - {fileID: 4144804295052855131, guid: 9bed8e0cb1c8841409638fe3d0e2e6f1, type: 3}
+  spawnLocations: []
+  SpawnChances: []
 --- !u!4 &2125505687
 Transform:
   m_ObjectHideFlags: 0
