@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Intro_Controller : MonoBehaviour
 {
+    public string sceneName;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,6 @@ public class Intro_Controller : MonoBehaviour
 
     IEnumerator wait() {
         yield return new WaitForSeconds(5);
-        Initiate.Fade("TestLevel", Color.black, 0.5f);
+        Initiate.Fade(sceneName, Color.black, 0.5f);
     }
 }
