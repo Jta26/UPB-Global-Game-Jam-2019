@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walk: {fileID: 9100000, guid: 38787587a5c316141b0442b167c7aabd, type: 2}
   Idle: {fileID: 9100000, guid: f666a77ec52dfe841a4543f5656b0356, type: 2}
-  jump: {fileID: 9100000, guid: 3ef2b40a6983ba94b8dc665b7b2c9552, type: 2}
+  jumpSprite: {fileID: 21300002, guid: bd006bbcbb8c22b46aa6deb6eb17f1a4, type: 3}
 --- !u!1 &7496995713684685954
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,7 +267,7 @@ MonoBehaviour:
   flying: 0
   gameObjectPlayer: {fileID: 7496995713684685954}
   maxSpeed: 10
-  jumpTakeOffSpeed: 12
+  jumpTakeOffSpeed: 20
   spriteIndex: 0
 --- !u!61 &6697282708327552778
 BoxCollider2D:

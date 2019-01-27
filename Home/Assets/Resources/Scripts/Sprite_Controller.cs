@@ -9,6 +9,11 @@ public class Sprite_Controller : MonoBehaviour
 {
     public GameObject player;
     private List<GameObject> houses;
+    public List<GameObject> enemyPrefabs;
+    private int enemyCallCounter = 0;
+    public int callsToSpawn = 60;
+    public float spawnChance = 0.001f;
+
     void Start()
     {
         //Get All house Sprites in List.
@@ -47,8 +52,25 @@ public class Sprite_Controller : MonoBehaviour
 
 
     }
+
     void Update()
     {
-        
+
+    }
+
+    void FixedUpdate()
+    {
+        bool spawn = Random.value <= spawnChance;
+        enemyCallCounter++;
+
+        if(spawn && (enemyCallCounter > callsToSpawn))
+        {
+            bool onTheLeft = Random.value >= 0.5f;
+            GameObject enemy = Instantiate(enemyPrefabs[Mathf.RoundToInt(Random.Range(0, enemyPrefabs.Count))]);
+            enemy.transform.position = new Vector2((onTheLeft ? player.transform.position.x - 30 : player.transform.position.x + 30), enemy.transform.position.y);
+            EnemyController enemyController = enemy.GetComponent<EnemyController>();
+            enemyController.playerToLeft = !onTheLeft;
+            enemyCallCounter = 0;
+        }
     }
 }

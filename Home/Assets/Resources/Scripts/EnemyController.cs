@@ -26,13 +26,15 @@ public class EnemyController : PhysicsObject
             velocity.y = jumpTakeOffSpeed;
         }
 
-        bool flipSprite = (spriteRenderer.flipX ? (!flipSpriteX && move.x < 0.01f) : (flipSpriteX && move.x > 0.01f));
+        bool flipSprite = move.x > 0.01f;
         if (flipSprite) 
         {
             spriteRenderer.flipX = !spriteRenderer.flipX;
         }
 
         targetVelocity = move * maxSpeed;
+
+        float playerOffset = GameObject.FindGameObjectWithTag("playerHouse").transform.position.x - transform.position.x;
+        if(playerOffset > 40f || playerOffset < -40f) Destroy(this);
     }
-    
 }
