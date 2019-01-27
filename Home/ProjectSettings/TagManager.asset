@@ -7,8 +7,12 @@ TagManager:
   - playerHouse
   - fillerHouse
   - playerBody
+<<<<<<< HEAD
   - playerLimbs
   - Dragon
+=======
+  - Enemy
+>>>>>>> 13c628a4f5adc06cb081b8f29fb7acc23fad3685
   layers:
   - Default
   - TransparentFX
