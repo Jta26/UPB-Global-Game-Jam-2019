@@ -28,6 +28,7 @@ public class House_Controller : MonoBehaviour
         }
         if (isCollidedWithCorrectHouse && downKeyDown) {
             Debug.Log("Condition to finish level met.");
+            Initiate.Fade("Finish", Color.black, 2f);
         }
     }
 

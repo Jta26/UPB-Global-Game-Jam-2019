@@ -9,6 +9,7 @@ public class Player_Animation_Controller : MonoBehaviour
 
     public RuntimeAnimatorController walk;
     public RuntimeAnimatorController Idle;
+    public Sprite jumpSprite;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,13 @@ public class Player_Animation_Controller : MonoBehaviour
             renderer.flipX = true;
         }
         if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A)) {
+            anim.runtimeAnimatorController = Idle;
+        }
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            anim.runtimeAnimatorController = null;
+            renderer.sprite = jumpSprite;
+        }
+        if (Input.GetKeyUp(KeyCode.Space)) {
             anim.runtimeAnimatorController = Idle;
         }
 
