@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class EnemyController : PhysicsObject
 {
+    public bool flipSpriteX;
     public float maxSpeed = 8;
     public float jumpTakeOffSpeed = 10;
     public bool playerToLeft, jumping;
@@ -25,7 +26,7 @@ public class EnemyController : PhysicsObject
             velocity.y = jumpTakeOffSpeed;
         }
 
-        bool flipSprite = (spriteRenderer.flipX ? (move.x < 0.01f) : (move.x > 0.01f));
+        bool flipSprite = (spriteRenderer.flipX ? (!flipSpriteX && move.x < 0.01f) : (flipSpriteX && move.x > 0.01f));
         if (flipSprite) 
         {
             spriteRenderer.flipX = !spriteRenderer.flipX;
@@ -33,4 +34,5 @@ public class EnemyController : PhysicsObject
 
         targetVelocity = move * maxSpeed;
     }
+    
 }

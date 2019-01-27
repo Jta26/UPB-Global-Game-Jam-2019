@@ -10,12 +10,16 @@ public class Camera_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        offset = transform.position - player.transform.position;
+        offset.x = transform.position.x - player.transform.position.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = player.transform.position + offset;
+        Transform thistrans = this.GetComponent<Transform>();
+        Vector3 thispos = thistrans.position;
+        thispos.z = -10f;
+        thispos.x = player.transform.position.x + offset.x;
+        transform.position = thispos;
     }
 }

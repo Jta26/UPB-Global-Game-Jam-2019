@@ -8,6 +8,7 @@ TagManager:
   - fillerHouse
   - playerBody
   - playerLimbs
+  - Dragon
   layers:
   - Default
   - TransparentFX
