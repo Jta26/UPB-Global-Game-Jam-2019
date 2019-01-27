@@ -16,11 +16,7 @@ GameObject:
   - component: {fileID: 6312501568807014346}
   m_Layer: 0
   m_Name: Dragon
-<<<<<<< HEAD
   m_TagString: Dragon
-=======
-  m_TagString: Enemy
->>>>>>> 13c628a4f5adc06cb081b8f29fb7acc23fad3685
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +93,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -172,4 +168,4 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+m_KeepAnimatorControllerStateOnDisable: 0
