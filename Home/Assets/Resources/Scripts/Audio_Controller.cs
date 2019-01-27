@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Audio_Controller : MonoBehaviour
 {
-
     private void Awake() {
+        if(GameObject.FindGameObjectsWithTag("Music").Length > 1) Destroy(GameObject.Find("Music"));
         DontDestroyOnLoad(this.gameObject);
     }
     // Start is called before the first frame update

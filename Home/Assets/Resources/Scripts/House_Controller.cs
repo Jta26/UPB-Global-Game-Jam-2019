@@ -18,15 +18,7 @@ public class House_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)) {
-
-            downKeyDown = true;
-        }
-        if (Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S)) {
-
-            downKeyDown = false;
-        }
-        if (isCollidedWithCorrectHouse && downKeyDown) {
+        if (isCollidedWithCorrectHouse && Input.GetAxis("Vertical") > 0) {
             Debug.Log("Condition to finish level met.");
             Initiate.Fade("Finish", Color.black, 2f);
         }

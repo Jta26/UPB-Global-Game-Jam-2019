@@ -18,7 +18,8 @@ public class Intro_Controller : MonoBehaviour
     }
 
     IEnumerator wait() {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(4);
+        Debug.Log("neat");
         Initiate.Fade(sceneName, Color.black, 0.5f);
     }
 }

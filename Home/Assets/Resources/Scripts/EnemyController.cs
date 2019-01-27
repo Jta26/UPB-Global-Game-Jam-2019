@@ -35,6 +35,6 @@ public class EnemyController : PhysicsObject
         targetVelocity = move * maxSpeed;
 
         float playerOffset = GameObject.FindGameObjectWithTag("playerHouse").transform.position.x - transform.position.x;
-        if(playerOffset > 40f || playerOffset < -40f) Destroy(this);
+        if(playerOffset > 40f || playerOffset < -40f) Destroy(gameObject);
     }
 }

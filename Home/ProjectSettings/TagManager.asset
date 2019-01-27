@@ -7,6 +7,9 @@ TagManager:
   - playerBody
   - playerHouse
   - Enemy
+  - Dragon
+  - fillerHouse
+  - Music
   layers:
   - Default
   - TransparentFX

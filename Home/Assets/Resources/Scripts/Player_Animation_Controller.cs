@@ -26,7 +26,7 @@ public class Player_Animation_Controller : MonoBehaviour
         }
         else if (Input.GetAxis("Horizontal") != 0) {
             anim.runtimeAnimatorController = walk;
-            renderer.flipX = Input.GetAxis("Horizontal") > 0;
+            renderer.flipX = Input.GetAxis("Horizontal") <= 0;
         }
         else {
             anim.runtimeAnimatorController = Idle;

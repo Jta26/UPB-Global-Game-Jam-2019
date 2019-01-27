@@ -20,6 +20,8 @@ public class Camera_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
+
         Transform thistrans = this.GetComponent<Transform>();
         Vector3 thispos = thistrans.position;
         thispos.z = -10f;

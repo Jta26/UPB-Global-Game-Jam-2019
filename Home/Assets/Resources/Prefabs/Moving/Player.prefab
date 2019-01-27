@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 2332457341741061205}
   - component: {fileID: 4266834612040213465}
   - component: {fileID: 6200146111523809489}
-  - component: {fileID: 6697282708327552778}
+  - component: {fileID: 2797844984345176193}
   m_Layer: 8
   m_Name: Player
   m_TagString: playerHouse
@@ -269,8 +269,8 @@ MonoBehaviour:
   maxSpeed: 10
   jumpTakeOffSpeed: 20
   spriteIndex: 0
---- !u!61 &6697282708327552778
-BoxCollider2D:
+--- !u!70 &2797844984345176193
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -282,16 +282,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -2}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.2}
-    newSize: {x: 0.2, y: 0.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 14}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0, y: -4}
+  m_Size: {x: 8, y: 10}
+  m_Direction: 0
