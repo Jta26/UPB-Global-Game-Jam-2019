@@ -7,7 +7,7 @@ TagManager:
   - playerHouse
   - fillerHouse
   - playerBody
-  - playerLimbs
+  - Enemy
   layers:
   - Default
   - TransparentFX
