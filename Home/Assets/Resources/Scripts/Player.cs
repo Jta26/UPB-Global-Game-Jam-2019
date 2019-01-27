@@ -67,8 +67,5 @@ public class Player : PhysicsObject {
     }
 
     private void OnCollisionEnter2D(Collision2D col) {
-         if (col.gameObject.tag == "Enemy") {
-             Initiate.Fade("Exit", Color.black, 2f);
-         }
     }
 }
