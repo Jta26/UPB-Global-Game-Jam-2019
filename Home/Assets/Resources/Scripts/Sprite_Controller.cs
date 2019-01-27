@@ -45,9 +45,13 @@ public class Sprite_Controller : MonoBehaviour
         //remove player sprite from list of usable sprites.
         houseSprites.RemoveAt(intSpriteIndex);
         //Randomly set each house to the new list of available sprites.
+        int prevRandom = -1;
         foreach(GameObject house in houses) {
             House_Controller houseScript = house.GetComponent<House_Controller>();
-            houseScript.SetHouseSprite((Sprite) houseSprites[Mathf.RoundToInt(Random.Range(0, houseSprites.Count))]);
+            int random;
+            do{random = Mathf.RoundToInt(Random.Range(0, houseSprites.Count));} while(random == prevRandom);
+            houseScript.SetHouseSprite((Sprite) houseSprites[random]);
+            prevRandom = random;
         }
 
 

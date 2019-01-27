@@ -15,7 +15,7 @@ public class EnemyController : PhysicsObject
     void Awake () 
     {
         playerToLeft = GameObject.FindGameObjectWithTag ("playerHouse").transform.position.x < transform.position.x;
-        spriteRenderer = GetComponent<SpriteRenderer> ();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     protected override void ComputeVelocity()
@@ -26,7 +26,7 @@ public class EnemyController : PhysicsObject
             velocity.y = jumpTakeOffSpeed;
         }
 
-        bool flipSprite = move.x > 0.01f;
+        bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
         if (flipSprite) 
         {
             spriteRenderer.flipX = !spriteRenderer.flipX;

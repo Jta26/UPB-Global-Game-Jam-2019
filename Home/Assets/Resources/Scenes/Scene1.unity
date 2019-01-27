@@ -643,8 +643,8 @@ MonoBehaviour:
   - {fileID: 6312501568807014341, guid: e5286d2dde3d70543b1b93c20e45e55e, type: 3}
   - {fileID: 2991208792595973981, guid: 9cdd04cf191b2cc4a988a4ea84586aa7, type: 3}
   - {fileID: 780420328, guid: 10c8448a561f91b4bbf390b115cdbabc, type: 3}
-  callsToSpawn: 1
-  spawnChance: 0.1
+  callsToSpawn: 30
+  spawnChance: 0.05
 --- !u!1 &160391880
 GameObject:
   m_ObjectHideFlags: 0

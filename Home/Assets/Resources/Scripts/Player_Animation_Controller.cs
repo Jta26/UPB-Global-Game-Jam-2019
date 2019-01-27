@@ -39,9 +39,5 @@ public class Player_Animation_Controller : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space)) {
             anim.runtimeAnimatorController = Idle;
         }
-
-        
-
-        
     }
 }
