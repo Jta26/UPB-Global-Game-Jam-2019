@@ -65,4 +65,10 @@ public class Player : PhysicsObject {
         // // box.size = v;
         // Debug.Log("set collider");
     }
+
+    private void OnCollisionEnter2D(Collision2D col) {
+         if (col.gameObject.tag == "Enemy") {
+             Initiate.Fade("Exit", Color.black, 2f);
+         }
+    }
 }
