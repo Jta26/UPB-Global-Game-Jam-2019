@@ -20,23 +20,15 @@ public class Player_Animation_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D)) {
-            
-            anim.runtimeAnimatorController = walk;
-            renderer.flipX = false;
-        }
-        if (Input.GetKeyDown(KeyCode.A)) {
-            anim.runtimeAnimatorController = walk;
-            renderer.flipX = true;
-        }
-        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A)) {
-            anim.runtimeAnimatorController = Idle;
-        }
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetButtonDown ("Jump")) {
             anim.runtimeAnimatorController = null;
             renderer.sprite = jumpSprite;
         }
-        if (Input.GetKeyUp(KeyCode.Space)) {
+        else if (Input.GetAxis("Horizontal") != 0) {
+            anim.runtimeAnimatorController = walk;
+            renderer.flipX = Input.GetAxis("Horizontal") > 0;
+        }
+        else {
             anim.runtimeAnimatorController = Idle;
         }
     }

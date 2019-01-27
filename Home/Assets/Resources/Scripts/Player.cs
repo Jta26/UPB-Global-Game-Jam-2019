@@ -10,7 +10,7 @@ public class Player : PhysicsObject {
 
     public float spriteIndex;
     
-//    private SpriteRenderer spriteRenderer;
+    private SpriteRenderer spriteRenderer;
 //    private Animator animator;
 
     // Use this for initialization
@@ -18,7 +18,7 @@ public class Player : PhysicsObject {
     {
         fitCollider();
         Debug.Log("start called");
-//        spriteRenderer = GetComponent<SpriteRenderer> (); 
+        spriteRenderer = GetComponentInChildren<SpriteRenderer> (); 
 //        animator = GetComponent<Animator> ();
     }
     protected override void ComputeVelocity()
@@ -36,11 +36,11 @@ public class Player : PhysicsObject {
             }
         }
 
-//       bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
-//        if (flipSprite) 
-//        {
-//            spriteRenderer.flipX = !spriteRenderer.flipX;
-//        }
+        bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
+        if (flipSprite) 
+        {
+            spriteRenderer.flipX = !spriteRenderer.flipX;
+        }
 
 //        animator.SetBool ("grounded", grounded);
 //        animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
@@ -66,6 +66,10 @@ public class Player : PhysicsObject {
         // Debug.Log("set collider");
     }
 
-    private void OnCollisionEnter2D(Collision2D col) {
+    private void OnTriggerEnter2D(Collider2D col) {
+        if(col.gameObject.CompareTag("Enemy")) {
+            rb2d.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
+            Initiate.Fade("Exit", Color.black, 2f);
+        }
     }
 }
